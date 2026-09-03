@@ -1,4 +1,4 @@
-# threat-research
+
 # Threat Research
 
 Personal repository where I document cybersecurity research, malware analysis, phishing campaigns and detection techniques.
