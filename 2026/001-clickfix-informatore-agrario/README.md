@@ -11,8 +11,19 @@ While checking `informatoreagrario[.]it`, I found a fake CAPTCHA asking
 the user to complete a verification by pressing:
 
 `Win + R` → `Ctrl + V` → `Enter`
+### Fake CAPTCHA
+
+The fake verification prompt observed during the analysis:
+
+![Fake CAPTCHA](screenshots/01-fake-captcha.png)
 
 Instead of following the instructions, I checked the clipboard content.
+
+### Clipboard content
+
+The command copied to the clipboard was inspected before execution:
+
+![MSHTA command](screenshots/04-mshta-command.png)
 
 The following command had been copied:
 
@@ -43,6 +54,12 @@ network activity.
 ## Sandbox findings
 
 ANY.RUN detected the activity as ClickFix / phishing.
+
+### ANY.RUN detection
+
+ANY.RUN identified the secondary domain as a suspected phishing domain:
+
+![ANY.RUN detection](screenshots/03-anyrun-detection.png)
 
 Main findings from the session:
 
