@@ -487,6 +487,56 @@ The distinction is intentional and prevents external validation from being claim
 
 ---
 
+## Evidence
+
+### Phishing Landing Page
+
+The initial phishing page impersonated PagoPA and presented the victim with a fake TARI refund notice.
+
+![Phishing landing page](./evidence/01-phishing-landing.png)
+
+---
+
+### Identity Verification Stage
+
+The phishing application requested identity information using either an Italian tax code or identity card.
+
+![Identity verification](./evidence/02-identity-verification.png)
+
+---
+
+### Fake Refund Approval
+
+After the identity verification stage, the application displayed a fake approved refund of `95,00 EUR`.
+
+![Refund approved](./evidence/03-refund-approved.png)
+
+---
+
+### Network Infrastructure
+
+Sandbox network observations associated the phishing host with `170[.]106[.]154[.]175`.
+
+![ANY.RUN network analysis](./evidence/04-anyrun-network.png)
+
+---
+
+### JavaScript Artifact
+
+Static analysis of the observed JavaScript bundle produced the hashes documented in this report.
+
+![JavaScript artifact](./evidence/05-javascript-artifact.png)
+
+---
+
+### Passive DNS Evidence
+
+VirusTotal passive DNS data used during infrastructure pivoting is preserved as supporting evidence:
+
+[View passive DNS report](./evidence/06-virustotal-passive-dns.pdf)
+
+
+
 ## Limitations
 
 Active service enumeration was intentionally excluded from the scope.
