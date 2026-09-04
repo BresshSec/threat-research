@@ -561,4 +561,49 @@ Several of these independently identified domains were subsequently confirmed in
 
 Application-level similarities, including repeated endpoint structures and the reuse of the same content-hashed JavaScript asset path, provided additional evidence of a shared phishing deployment template.
 
+---
+
+## References
+
+### CERT-AGID
+
+- **CERT-AGID — Falso rimborso TARI sfruttato nelle nuove campagne di phishing ai danni di PagoPA**  
+  Published: 3 September 2026  
+  Official campaign report and IoC source.
+
+### Analysis Platforms
+
+- **ANY.RUN**  
+  Used for controlled execution of the phishing website, reconstruction of the phishing flow, network observation and JavaScript artifact analysis.
+
+- **VirusTotal**  
+  Used for domain/IP reputation analysis, passive DNS investigation and infrastructure correlation.
+
+### Public Infrastructure Sources
+
+- Public DNS records
+- RDAP / WHOIS data
+- Certificate Transparency data
+- Public ASN and IP registration information
+
+---
+
+## Disclosure & Research Ethics
+
+This research was conducted for defensive cybersecurity and educational purposes.
+
+No exploitation, vulnerability scanning, credential harvesting or unauthorized access was performed against third-party infrastructure.
+
+Only fictitious information was used when interaction with the phishing application was required.
+
+Indicators and infrastructure relationships are documented to support defensive analysis and should not be interpreted as attribution to infrastructure providers, registrars or hosting companies.
+
+---
+
+## Author
+
+**BresshSec**
+
+Independent cybersecurity research focused on phishing, malicious infrastructure and threats targeting Italian users and organizations.
+
 This case demonstrates how sandbox analysis, passive infrastructure pivoting and authoritative external validation can be combined while maintaining a clear distinction between directly observed indicators, analytical correlations and confirmed campaign IoCs.
