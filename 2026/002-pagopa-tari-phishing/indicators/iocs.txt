@@ -1,0 +1,114 @@
+# Case 002 — PagoPA / TARI Refund Phishing
+# Analysis date: 2026-09-04
+#
+# Indicators associated with the investigated campaign.
+# Domains and URLs in the CERT-AGID section were validated
+# against the publicly released CERT-AGID IoC dataset.
+#
+# Defanged format is used where applicable to prevent
+# accidental navigation.
+
+
+# ============================================================
+# CERT-AGID CONFIRMED DOMAINS
+# ============================================================
+
+rimborso[.]intp[.]cam
+intp[.]cam
+
+tari[.]intv[.]cam
+intv[.]cam
+
+tari[.]intw[.]cam
+intw[.]cam
+
+rimborso[.]intq[.]cam
+intq[.]cam
+
+rimborso[.]intr[.]cam
+intr[.]cam
+
+rimborso[.]into[.]cam
+into[.]cam
+
+rimborso[.]intl[.]cam
+intl[.]cam
+
+rimborso[.]intj[.]cam
+intj[.]cam
+
+rimborso[.]inty[.]cam
+inty[.]cam
+
+pago[.]inth[.]cam
+inth[.]cam
+
+
+# ============================================================
+# CERT-AGID CONFIRMED URLS — INITIAL HOST
+# ============================================================
+
+hxxps://rimborso[.]intp[.]cam/it
+hxxps://rimborso[.]intp[.]cam/TzfvloMAFK/api
+hxxps://rimborso[.]intp[.]cam/TzfvloMAFK/api/input
+hxxps://rimborso[.]intp[.]cam/wf167_it/header.html
+hxxps://rimborso[.]intp[.]cam/wf167_it/footer.html
+
+
+# ============================================================
+# INDEPENDENTLY OBSERVED INFRASTRUCTURE
+# Not published as IPv4 IoC in the examined CERT-AGID dataset
+# ============================================================
+
+170[.]106[.]154[.]175
+
+# ASN
+AS132203
+
+
+# ============================================================
+# INDEPENDENTLY OBSERVED JAVASCRIPT ARTIFACT
+# ============================================================
+
+# Filename
+index-62f0ed43.js
+
+# Observed path
+/assets/index-62f0ed43.js
+
+# MD5
+B2A8DA0D998843D40DFB974D6BA580AC8
+
+# SHA1
+9C071ED4737777C33F8B22A8994C7A467551C284
+
+# SHA256
+5C022DF588D53DBDF4106A39C2439A30783ACD48553A47CB25DDFE5305DE32B8
+
+
+# ============================================================
+# APPLICATION FINGERPRINT
+# ============================================================
+
+/assets/index-62f0ed43.js
+/TzfvloMAFK/api
+/TzfvloMAFK/api/input
+/wf167_it/header.html
+/wf167_it/footer.html
+
+
+# ============================================================
+# RESEARCH NOTES
+# ============================================================
+
+# Passive DNS records sharing the same IP address were not
+# automatically classified as campaign IoCs.
+#
+# Historical records without sufficient temporal or
+# application-level correlation were excluded.
+#
+# 170.106.154.175 and AS132203 are documented as independently
+# observed infrastructure rather than CERT-AGID-confirmed IoCs.
+#
+# Infrastructure-provider information must not be interpreted
+# as threat-actor attribution.
