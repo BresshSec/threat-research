@@ -76,7 +76,7 @@ Indicators of Compromise are provided exclusively to support threat intelligence
 
 ---
 
-**Andrea Salvadori**
+**BresshSec**
 
 System Administrator | Cybersecurity & Threat Research  
 Focus: **Italian Threat Landscape**
