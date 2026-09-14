@@ -1,0 +1,11 @@
+type,indicator,context,confidence
+domain,danielenittisotres[.]it,deep-dive analyzed website / potential victim infrastructure,high
+domain,fingerprint-veri[.]info,remote component observed in sandbox HTTP activity,high
+domain,mioiooo[.]icu,observed in sandbox IOC set,high
+domain,clickzona[.]net,observed in sandbox IOC set,high
+domain,cloudflare-check[.]net,observed in sandbox IOC set,high
+domain,norediam[.]com,observed in sandbox IOC set,high
+domain,triapfog[.]com,observed in sandbox IOC set,high
+ip,89.46.106[.]61,observed sandbox IOC,high
+ip,58.64.137[.]69,observed sandbox IOC,high
+ip,178.16.52[.]101,observed sandbox IOC,high
