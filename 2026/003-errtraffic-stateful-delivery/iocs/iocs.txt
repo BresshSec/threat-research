@@ -1,0 +1,14 @@
+# BresshSec Case Study 003 — defensive indicators
+# Research date: 2026-09-14
+# Defanged where appropriate
+
+danielenittisotres[.]it
+fingerprint-veri[.]info
+mioiooo[.]icu
+clickzona[.]net
+cloudflare-check[.]net
+norediam[.]com
+triapfog[.]com
+89.46.106[.]61
+58.64.137[.]69
+178.16.52[.]101
