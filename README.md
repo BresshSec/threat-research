@@ -15,6 +15,7 @@ The goal is to analyze real-world threats, reconstruct their behavior and attack
 |------|----------|------------------|-----------|----------|
 | 2026-09-03 | ClickFix Campaign | Italian domain | Fake CAPTCHA / MSHTA | [Read Analysis](./2026/001-clickfix-informatore-agrario) |
 | 2026-09-04 | PagoPA / TARI Refund Phishing | Italian users / PagoPA impersonation | Phishing / Passive DNS / Infrastructure correlation | [Read Analysis](./2026/002-pagopa-tari-phishing/) |
+| 2026-09-14 | ErrTraffic / BW Panel Stateful Delivery | Compromised Italian web infrastructure | ClickFix / EtherHiding / state-dependent JavaScript delivery | [Read Analysis](./2026/003-errtraffic-stateful-delivery/) |
 
 ## Research Focus
 
@@ -24,6 +25,7 @@ Primary areas of research:
 - Phishing campaigns targeting Italian users
 - Compromised or abused websites
 - ClickFix and Fake CAPTCHA campaigns
+- EtherHiding and stateful malware-delivery behavior
 - Malware delivery chains
 - Malicious redirects
 - Living Off The Land techniques
