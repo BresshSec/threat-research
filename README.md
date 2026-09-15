@@ -11,11 +11,11 @@ The goal is to analyze real-world threats, reconstruct their behavior and attack
 
 ## Research
 
-| Date | Campaign | Target / Context | Technique | Analysis |
-|------|----------|------------------|-----------|----------|
-| 2026-09-03 | ClickFix Campaign | Italian domain | Fake CAPTCHA / MSHTA | [Read Analysis](./2026/001-clickfix-informatore-agrario) |
-| 2026-09-04 | PagoPA / TARI Refund Phishing | Italian users / PagoPA impersonation | Phishing / Passive DNS / Infrastructure correlation | [Read Analysis](./2026/002-pagopa-tari-phishing/) |
-| 2026-09-14 | ErrTraffic / BW Panel Stateful Delivery | Compromised Italian web infrastructure | ClickFix / EtherHiding / state-dependent JavaScript delivery | [Read Analysis](./2026/003-errtraffic-stateful-delivery/) |
+| Date | Campaign | Target / Context | Technique | Status | Analysis |
+|------|----------|------------------|-----------|--------|----------|
+| 2026-09-03 | ClickFix Campaign | Italian domain | Fake CAPTCHA / MSHTA | Published | [Read Analysis](./2026/001-clickfix-informatore-agrario) |
+| 2026-09-04 | PagoPA / TARI Refund Phishing | Italian users / PagoPA impersonation | Phishing / Passive DNS / Infrastructure correlation | Published | [Read Analysis](./2026/002-pagopa-tari-phishing/) |
+| 2026-09-14 | ErrTraffic / BW Panel Stateful Delivery | Compromised Italian web infrastructure | ClickFix / EtherHiding / state-dependent JavaScript delivery | **Final / Closed** | [Read Analysis](./2026/003-errtraffic-stateful-delivery/) |
 
 ## Research Focus
 
