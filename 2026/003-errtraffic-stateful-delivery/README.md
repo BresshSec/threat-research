@@ -1,8 +1,9 @@
 # Case Study 003 — Stateful Module Delivery in a ClickFix / EtherHiding Chain
 
 **Research window:** 14–15 September 2026  
+**Public release:** 16 September 2026  
 **Researcher:** BresshSec  
-**Status:** FINAL / RESEARCH CLOSED  
+**Status:** FINAL / PAPER RELEASED / RESEARCH CLOSED  
 **Focus:** ClickFix · EtherHiding · BW Panel / ErrTraffic · state-dependent delivery
 
 ## Executive Summary
@@ -11,7 +12,7 @@ This case study documents a web-based malware delivery chain observed through co
 
 The investigation moved beyond IOC collection into protocol reconstruction. Captured traffic, obfuscated client-side code, Polygon JSON-RPC resolution and downstream module retrieval showed that the delivery backend could alter its response according to state that was not fully visible to the analyst.
 
-The research is now closed at the passive/independent-investigation stage. Additional certainty around victim-specific initial access would require server-side evidence from the affected organization rather than further external probing.
+The research is closed at the passive/independent-investigation stage. The 43-page paper reached public-release status on 16 September 2026. A sanitized distribution edition was prepared for public/social publication while the canonical v1.5 technical release remains frozen. Additional certainty around victim-specific initial access would require server-side evidence from the affected organization rather than further external probing.
 
 ## Key Research Finding
 
@@ -102,7 +103,7 @@ For compromised WordPress infrastructure, responders should additionally preserv
 | Victim-specific initial access | Unresolved; valid-account compromise assessed as leading hypothesis |
 | Specific exploited CVE | Not established |
 | Named threat actor / APT | Not supported |
-| Publication readiness | Final |
+| Publication readiness | Released (16 September 2026) |
 | Research status | Closed |
 
 The case can be reopened only if materially new primary evidence becomes available, such as victim-side forensic artifacts or a directly linked malware/server sample.
