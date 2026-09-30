@@ -1,4 +1,3 @@
-
 # Threat Research
 
 Personal repository where I document cybersecurity research, malware analysis, phishing campaigns and detection techniques.
@@ -16,6 +15,7 @@ The goal is to analyze real-world threats, reconstruct their behavior and attack
 | 2026-09-03 | ClickFix Campaign | Italian domain | Fake CAPTCHA / MSHTA | Published | [Read Analysis](./2026/001-clickfix-informatore-agrario) |
 | 2026-09-04 | PagoPA / TARI Refund Phishing | Italian users / PagoPA impersonation | Phishing / Passive DNS / Infrastructure correlation | Published | [Read Analysis](./2026/002-pagopa-tari-phishing/) |
 | 2026-09-14 | ErrTraffic / BW Panel Stateful Delivery | Compromised Italian web infrastructure | ClickFix / EtherHiding / state-dependent JavaScript delivery | **Paper Released / Closed** | [Read Analysis](./2026/003-errtraffic-stateful-delivery/) |
+| 2026-09-30 | MintsLoader Infrastructure and IOC Provenance | Italian malware campaigns / CERT-AGID IOC review | JavaScript / PowerShell loader correlation / IOC provenance | **CERT Review / Publication Ready** | [Read Analysis](./2026/004-mintsloader-ioc-provenance/) |
 
 ## Research Focus
 
