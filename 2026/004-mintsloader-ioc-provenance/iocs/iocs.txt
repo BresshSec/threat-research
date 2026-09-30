@@ -1,0 +1,13 @@
+# BresshSec Case Study 004 - defensive indicators
+# Research date: 2026-09-30
+# Defanged where appropriate
+
+165.22.13[.]227
+waltagemusic[.]com
+uk07m7j6xy80p1i[.]top
+141.136.36[.]44
+gl2yq5fgshd3f1o[.]top
+hexn861e33iwlq5[.]top
+wj0qp2nmo6surev[.]top
+whiteinsidedoor[.]com
+31.97.33[.]171

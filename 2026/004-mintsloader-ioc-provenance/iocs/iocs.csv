@@ -1,0 +1,10 @@
+type,indicator,context,confidence
+ipv4,165.22.13[.]227,confirmed in Certego June report and CERT-AGID September export,high
+domain,waltagemusic[.]com,initial PowerShell retrieval endpoint in June incident,high
+domain,uk07m7j6xy80p1i[.]top,later payload staging in June incident,high
+ipv4,141.136.36[.]44,address associated with waltagemusic.com during June incident,high
+domain,gl2yq5fgshd3f1o[.]top,published in CERT-AGID event 26383,high
+domain,hexn861e33iwlq5[.]top,published in CERT-AGID event 26383,high
+domain,wj0qp2nmo6surev[.]top,published in CERT-AGID event 26383,high
+domain,whiteinsidedoor[.]com,published in CERT-AGID event 26383,high
+ipv4,31.97.33[.]171,published in CERT-AGID event 26383,high
